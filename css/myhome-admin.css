@@ -1,0 +1,162 @@
+#divRequirements{
+  display: table;
+}
+
+#divRequirements .requirement{
+  display: table-row;
+}
+
+#divRequirements .requirement > div{
+  display: table-cell;
+  padding: 2px 5px;
+}
+
+#divRequirements .requirement > div.requirement-status{
+  font-weight: bold;
+}
+
+#divRequirements .requirement > div.requirement-status.status-error{
+  color: Red;
+}
+
+#divRequirements .requirement > div.requirement-status.status-ok{
+  color: LimeGreen;
+}
+
+#divRequirements .requirement.requirement-title > div{
+  font-weight: bold;
+}
+
+#tableMyHomeAdminPage{
+  margin-top: 15px;
+  min-width: 480px;
+  width: 100%;
+}
+
+#tableMyHomeAdminPage.fixed-width {
+  table-layout: fixed;
+  width: auto;
+}
+
+#tableMyHomeAdminPage .button[disabled]{
+  background-color: LightGray !important;
+  border-color: LightGray !important;
+  color: DimGray !important;
+}
+
+#tableMyHomeAdminPage .button.button-primary[disabled]{
+  background-color: LightGray !important;
+  border-color: LightGray !important;
+  box-shadow: 0px 1px 0px rgba(211, 211, 211, 0.50) inset, 0px 1px 0px rgba(0, 0, 0, 0.15);
+  color: #298cba !important;
+}
+
+#tableMyHomeAdminPage .output textarea{
+  background-color: Black;
+  color: White;
+  font-family: "Lucida Console", Monaco, monospace;
+  height: 70vh;
+  overflow: auto;
+  width: 100%;
+}
+
+#tableMyHomeAdminPage tbody tr td{
+  /*display: inline-block;
+  width: 100%;*/
+  padding: 5px;
+}
+
+#tableMyHomeAdminPage tbody tr td select{
+  /*width: 100%;*/
+}
+
+#tableMyHomeAdminPage tbody tr td.table-row-title{
+  width: 170px;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 10px;
+  vertical-align: top;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#tableMyHomeAdminPage tbody tr td.table-row-title.option-level-2{
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 15px;
+}
+
+#tableMyHomeAdminPage tbody tr td.table-row-title.tip{
+  color: DimGray;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 5px;
+}
+
+#tableMyHomeAdminPage tbody tr td.table-row-title .required{
+  color: IndianRed;
+  font-weight: bold;
+}
+
+#tableMyHomeAdminPage tbody tr td input:not([type=checkbox]){
+  width: 50%;
+  min-width: 373px;
+}
+
+#tableMyHomeAdminPage tbody tr td input.input-narrow{
+  width: 25%;
+}
+
+#tableMyHomeAdminPage tbody tr td.shortcode img{
+  width: 100%;
+}
+
+#tableMyHomeAdminPage tbody tr td.shortcode textarea{
+  display: none;
+  font-size: 12px;
+  width: 100%;
+}
+
+#tableMyHomeAdminPage tbody tr td.status{
+  font-weight: bold;
+}
+
+#tableMyHomeAdminPage tbody tr td.status .status-error{
+  color: Red;
+}
+
+#tableMyHomeAdminPage tbody tr td.status .status-ok{
+  color: LimeGreen;
+}
+
+#tableMyHomeAdminPage tbody tr td.status .status-unknown{
+  color: Gray;
+}
+
+#tableMyHomeAdminPage tbody tr td.syntax div{
+  line-height: 16px;
+  padding: 5px 0px;
+}
+
+#tableMyHomeAdminPage tbody tr td.syntax pre{
+  display: inline;
+  white-space: normal;
+}
+
+#tableMyHomeAdminPage tbody tr td.syntax pre i{
+  color: SteelBlue;
+}
+
+#tableMyHomeAdminPage tbody tr td.with-list ul{
+  list-style: disc inside none;
+}
+
+#tableMyHomeAdminPage tbody tr td.with-list ul li{
+  line-height: 14px;
+  margin: 0px;
+}
+
+#tableMyHomeAdminPage tbody tr.debug-param{
+  display: none;
+}
